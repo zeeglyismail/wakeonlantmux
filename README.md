@@ -1,3 +1,11 @@
+### Update pkg
+pkg update -y
+
+### Install Python and requirments package
+pkg install python -y
+pip install flask wakeonlan
+
+### Create Directory 
 mkdir -p ~/.termux/boot
 
 ### Now create a script file:
