@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/wake', methods=['GET'])
 def wake():
     # Change this MAC address to your PC's MAC
-    mac = "D8-5E-D3-AC-16-5D"
+    mac = "DD-EE-DD-AA-AA-LL"
     send_magic_packet(mac)
     return "Magic packet sent!", 200
 
